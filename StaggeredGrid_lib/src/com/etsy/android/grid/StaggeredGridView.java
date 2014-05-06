@@ -1284,6 +1284,7 @@ public class StaggeredGridView extends ExtendableListView {
 
     @Override
     public void onRestoreInstanceState(Parcelable state) {
+        
         GridListSavedState ss = (GridListSavedState) state;
         mColumnCount = ss.columnCount;
         mColumnTops = ss.columnTops;

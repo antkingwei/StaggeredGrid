@@ -22,6 +22,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
     @Override
     public void onClick(final View v) {
+        
         if (v.getId() == R.id.btn_sgv) {
             startActivity(new Intent(this, StaggeredGridActivity.class));
         }
